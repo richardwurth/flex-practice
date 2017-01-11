@@ -1,0 +1,39 @@
+* {
+  outline: 2px solid red;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightgray;
+}
+.box {
+  max-height: 200px;
+  max-width: 200px;
+  min-height: 100px;
+  min-width: 100px;
+  height: 15%;
+  width: 15%;
+  background-color: green;
+}
+.group-box {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  height: 80%;
+  width: 80%;
+  position:relative;
+  flex-wrap: wrap;
+}
+.one {
+  background-color: blue;
+  margin: auto;
+}
+.two {
+  background-color: red;
+  margin:auto;
+}
+.three {
+  background-color: yellow;
+  margin: auto;
+}
